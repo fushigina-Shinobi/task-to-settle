@@ -71,7 +71,7 @@ function App() {
     <section className="section-container">
       <form action="submit" className="main-form" onSubmit={handleSubmit}>
         {alert.show && <Alert {...alert} removeAlert={showAlert} list={list} />}
-        <h3>To Do List</h3>
+        <h3>Task To Settle</h3>
         <div className="form-control">
           <input
             type="text"
